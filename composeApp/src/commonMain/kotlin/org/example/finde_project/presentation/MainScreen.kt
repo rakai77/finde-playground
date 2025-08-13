@@ -1,10 +1,9 @@
 package org.example.finde_project.presentation
 
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.rememberNavController
 import org.example.finde_project.presentation.navigation.MainNavigation
-import org.example.finde_project.presentation.screen.HomeScreen
+import org.example.finde_project.presentation.theme.FindeTheme
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
@@ -13,7 +12,7 @@ fun MainScreen() {
 
     val navController = rememberNavController()
 
-    MaterialTheme {
+    FindeTheme {
         MainNavigation(navController = navController)
     }
 }
