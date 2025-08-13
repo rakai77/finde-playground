@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=finder-project
+PRODUCT_BUNDLE_IDENTIFIER=org.example.finde_project.finder-project$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
